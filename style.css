@@ -1,0 +1,120 @@
+/* General styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(135deg, #fdfbfb 0%, #ebedee 100%);
+}
+
+/* Header */
+header {
+    background-color: #0d6efd;
+    color: white;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+}
+
+header button {
+    background-color: white;
+    color: #0d6efd;
+    border: none;
+    padding: 0.6rem 1.2rem;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+header button:hover {
+    background-color: #dbeafe;
+}
+
+/* Main content */
+main {
+    padding: 2rem;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* Product card styles */
+.product {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    padding: 1rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.product:hover {
+    transform: translateY(-5px);
+}
+
+.product img {
+    width: 100px;
+    margin-bottom: 1rem;
+}
+
+.product h3 {
+    margin: 0.5rem 0;
+}
+
+.product p {
+    font-weight: bold;
+    color: #0d6efd;
+}
+
+.product button {
+    background-color: #0d6efd;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.product button:hover {
+    background-color: #0b5ed7;
+}
+
+/* Cart section */
+#cart-section {
+    background-color: #ffffff;
+    border: 2px dashed #0d6efd;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+#cart-section h2 {
+    margin-top: 0;
+    color: #0d6efd;
+}
+
+#cart-items {
+    list-style: none;
+    padding-left: 0;
+}
+
+#cart-items li {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #eee;
+}
+
+#total {
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+/* Hidden section */
+.hidden {
+    display: none;
+}
